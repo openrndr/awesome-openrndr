@@ -60,7 +60,7 @@ Archived
 - [morisil/serca-alana](https://github.com/morisil/serca-alana). Live camera shader filter made during the 4th online Creative Code Jam edition on 20.06.2020
 - [Ptit-Biscuit/SolarSystem](https://github.com/Ptit-Biscuit/SolarSystem). Simple seeded solar system in Kotlin using Openrndr
 - [reinvdwoerd/reaction-diffusion-openrndr](https://github.com/reinvdwoerd/reaction-diffusion-openrndr). Reaction Diffusion and much more in OPENRNDR
-- [ricardomatias/openrndr-code-pong](https://github.com/ricardomatias/openrndr-code-pong). PONG
+- [ricardomatias/openrndr-code-pong](https://github.com/ricardomatias/openrndr-code-pong). A collaborative creative game between @hamoid and @ricardomatias. They take turns and push small changes to the code, see where it leads to.
 - [ricardomatias/openrndr-template](https://github.com/ricardomatias/openrndr-template). 
 - [runwayml/OpenRNDR](https://github.com/runwayml/OpenRNDR) A collection of examples and tutorials on how to use RunwayML with OpenRNDR.
 - [ryanbateman/openrndr-boids](https://github.com/ryanbateman/openrndr-boids). An implementation of the Boids algorithm using OpenRNDR, a Kotlin-based creative coding framework
