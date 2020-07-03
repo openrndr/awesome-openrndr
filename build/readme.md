@@ -8,8 +8,8 @@ Things to show:
 $ curl https://github.com/hamoid/openrndr-template/ | grep "This branch is "
 ```
 
-- num of .kt files
-- num of "fun main"
+- [ ] num of .kt files
+- [ ] num of "fun main"
 
 ```
 $ ag --kotlin "fun main" --stats-only src/main/kotlin/
