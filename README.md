@@ -10,7 +10,7 @@ Community maintained list of OPENRNDR based and related projects
 - [template](https://github.com/openrndr/openrndr-template). What most users should clone to get started.
 - [orx](https://github.com/openrndr/orx). Extensions, known in other frameworks as addons or libraries.
 - [examples](https://github.com/openrndr/openrndr-examples). Contains runnable examples from the guide.
-- [awesome-openrndr](https://github.com/openrndr/awesome-openrndr). Community maintained list of OPENRNDR based and related projects
+- [awesome-openrndr](https://github.com/openrndr/awesome-openrndr). Community maintained list of OPENRNDR based and related projects (this document).
 - [openrndr-api](https://github.com/openrndr/openrndr-api). 
 - [demos-span-2018](https://github.com/openrndr/openrndr-demos-span-2018). 
 - [panel-examples](https://github.com/openrndr/openrndr-panel-examples). Example for openrndr-panel
@@ -42,34 +42,35 @@ Archived
 ## community
 
 - [bobby-simon/openrndr-gradle-template](https://github.com/bobby-simon/openrndr-gradle-template). 
-- [boydhont/Lunar-OpenRNDR](https://github.com/boydhont/Lunar-OpenRNDR). A lightweight parametric design library for the minimalist, an implementation for OpenRNDR
+- [boydhont/Lunar-OpenRNDR](https://github.com/boydhont/Lunar-OpenRNDR). A lightweight parametric design library for the minimalist, an implementation for OPENRNDR
 - [BoydRotgans/goodgovernment](https://github.com/BoydRotgans/goodgovernment). Interactive tool for building correlation maps between governments worldwide.
-- [cansik/openrndr-pointcloud](https://github.com/cansik/openrndr-pointcloud). Simple pointcloud rendering with openRNDR
+- [cansik/openrndr-pointcloud](https://github.com/cansik/openrndr-pointcloud). Simple pointcloud rendering with OPENRNDR
 - [CreativeCodeBerlin/FrequentlyAsked](https://github.com/CreativeCodeBerlin/FrequentlyAsked). A growing list of frequently asked questions and resources for creative code beginners
 - [fal-works/openrndr-sketches](https://github.com/fal-works/openrndr-sketches). Creative coding sketches written with Kotlin and OPENRNDR.
-- [ferdinandsorg/openrndr-basics](https://github.com/ferdinandsorg/openrndr-basics). Simple code snippets for OpenRNDR
-- [FMS-Cat/hello-openrndr](https://github.com/FMS-Cat/hello-openrndr). My first OpenRNDR program
+- [ferdinandsorg/openrndr-basics](https://github.com/ferdinandsorg/openrndr-basics). Simple code snippets for OPENRNDR
+- [FMS-Cat/hello-openrndr](https://github.com/FMS-Cat/hello-openrndr). My first OPENRNDR program
 - [ilyasshafigin/openrndr-editor](https://github.com/ilyasshafigin/openrndr-editor). Editor for OPENRNRD framework
 - [irjida/https-githib.com-openrndr-openrndr-template](https://github.com/irjida/https-githib.com-openrndr-openrndr-template). 
 - [j-roskopf/OpenRndr](https://github.com/j-roskopf/OpenRndr). https://openrndr.org/ examples
 - [kook101/openRNDR-practice](https://github.com/kook101/openRNDR-practice). 
 - [mFrankowicz/openrndr-gradle-template](https://github.com/mFrankowicz/openrndr-gradle-template). 
-- [mhaqs/learning-openrndr](https://github.com/mhaqs/learning-openrndr). A repository of examples ported from Open sourced projects to OpenRNDR
+- [mhaqs/learning-openrndr](https://github.com/mhaqs/learning-openrndr). A repository of examples ported from Open sourced projects to OPENRNDR
 - [milenamkrtchyan12072005/Openrndr](https://github.com/milenamkrtchyan12072005/Openrndr). 
 - [morisil/openrndr-camera-filter](https://github.com/morisil/openrndr-camera-filter). Live streaming of your live coding in OPENRNDR
 - [morisil/serca-alana](https://github.com/morisil/serca-alana). Live camera shader filter made during the 4th online Creative Code Jam edition on 20.06.2020
 - [Ptit-Biscuit/SolarSystem](https://github.com/Ptit-Biscuit/SolarSystem). Simple seeded solar system in Kotlin using Openrndr
 - [reinvdwoerd/reaction-diffusion-openrndr](https://github.com/reinvdwoerd/reaction-diffusion-openrndr). Reaction Diffusion and much more in OPENRNDR
 - [ricardomatias/openrndr-code-pong](https://github.com/ricardomatias/openrndr-code-pong). A collaborative creative game between @hamoid and @ricardomatias. They take turns and push small changes to the code, see where it leads to.
-- [runwayml/OpenRNDR](https://github.com/runwayml/OpenRNDR) A collection of examples and tutorials on how to use RunwayML with OpenRNDR.
-- [ryanbateman/openrndr-boids](https://github.com/ryanbateman/openrndr-boids). An implementation of the Boids algorithm using OpenRNDR, a Kotlin-based creative coding framework
-- [TomasVolker/openrndr-math](https://github.com/TomasVolker/openrndr-math). Extensions for OpenRNDR for mathematical visualization
+- [runwayml/OpenRNDR](https://github.com/runwayml/OpenRNDR) A collection of examples and tutorials on how to use RunwayML with OPENRNDR.
+- [ryanbateman/openrndr-boids](https://github.com/ryanbateman/openrndr-boids). An implementation of the Boids algorithm using OPENRNDR, a Kotlin-based creative coding framework
+- [TomasVolker/openrndr-math](https://github.com/TomasVolker/openrndr-math). Extensions for OPENRNDR for mathematical visualization
 - [VolodyaG/openrndr-fun](https://github.com/VolodyaG/openrndr-fun). 
 - [xemantic/xemantic-openrndr-template](https://github.com/xemantic/xemantic-openrndr-template). openrndr template project containing xemantic-openrndr libraries
 - [xemantic/xemantic-openrndr](https://github.com/xemantic/xemantic-openrndr). OPENRNDR extensions which are too specific to my work to be contributed back, still worth sharing
-- [ylegall/openrndr-demos](https://github.com/ylegall/openrndr-demos). demos using the OpenRNDR framework
-- [ylegall/openrndr-utils](https://github.com/ylegall/openrndr-utils). a collection of utilities for the OpenRNDR framework
-- [Yvee1/openRNDR-circle-packing](https://github.com/Yvee1/openRNDR-circle-packing). Circle packing to test out openRNDR and Kotlin
+- [ylegall/openrndr-demos](https://github.com/ylegall/openrndr-demos). demos using the OPENRNDR framework
+- [ylegall/openrndr-utils](https://github.com/ylegall/openrndr-utils). a collection of utilities for the OPENRNDR framework
+- [Yvee1/openRNDR-circle-packing](https://github.com/Yvee1/openRNDR-circle-packing). Circle packing to test out OPENRNDR and Kotlin
+- [doodles-wall-c](https://openrndr.discourse.group/t/doodles-wall-c/51). A thread with images generated by various users of OPENRNDR.
 
 ## Note
 
