@@ -12,7 +12,7 @@ function formatEntry(it, description) {
   let days = Math.floor((Date.now() -
     Date.parse(it.updated_at)) / (3600*24*1000))
 
-  return `- ${counter++}. [${it.html_url}](${it.owner.login}) ` +
+  return `- ${counter++} . [${it.html_url}](${it.owner.login}) ` +
     (it.fork ? ' [fork] - ' : ' - ') +
     description + ` (${days} days ago)`
 }
