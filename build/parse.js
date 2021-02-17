@@ -12,7 +12,7 @@ function formatEntry(it, description) {
   let days = Math.floor((Date.now() -
     Date.parse(it.updated_at)) / (3600*24*1000))
 
-  return `- ${counter++} . [${it.html_url}](${it.owner.login}) ` +
+  return `- ${counter++} . [${it.owner.login}](${it.html_url}) ` +
     (it.fork ? ' [fork] - ' : ' - ') +
     description + ` (${days} days ago)`
 }
@@ -35,7 +35,7 @@ while(true) {
 let tweaks = JSON.parse(fs.readFileSync('tweaks.json', 'utf8'))
 console.log('## Other\n')
 tweaks.urls.forEach(it => {
-  console.log(`* [${it.url}](${it.name}) - ${it.description}`)
+  console.log(`* [${it.name}](${it.url}) - ${it.description}`)
 })
 
 console.log('\n## git repos\n')
