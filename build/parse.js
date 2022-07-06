@@ -1,24 +1,10 @@
 // Run with `node parse.js`
 
 var fs = require('fs');
-var counter = 1
 var items = []
 
-function printTitle(it) {
-  console.log('\n### ' + it + '\n')
-}
-
-function formatEntry(it, description) {
-  let days = Math.floor((Date.now() -
-    Date.parse(it.updated_at)) / (3600*24*1000))
-
-  return `- ${counter++} . [${it.owner.login}](${it.html_url}) ` +
-    (it.fork ? ' [fork] - ' : ' - ') +
-    description + ` (${days} days ago)`
-}
-
-console.log('# awesome-openrndr\n')
-console.log('Community maintained and scraped list of OPENRNDR based and related projects\n')
+console.log('# ' + new Date())
+console.log("")
 
 // Read json files
 let fileCounter = 1
@@ -32,17 +18,14 @@ while(true) {
   fileCounter++
 }
 
-let tweaks = JSON.parse(fs.readFileSync('tweaks.json', 'utf8'))
-console.log('## Other\n')
-tweaks.urls.forEach(it => {
-  console.log(`* [${it.name}](${it.url}) - ${it.description}`)
+items.forEach(it => {
+  it.days = Math.floor((Date.now() -
+    Date.parse(it.updated_at)) / (3600*24*1000))
 })
-
-console.log('\n## git repos\n')
 
 // Sort entries
 items.sort(function(a, b) {
-  let sortA = 'name'
+  let sortA = 'days' //name
   if(a[sortA] < b[sortA]) return -1
   if(a[sortA] > b[sortA]) return 1
 
@@ -53,47 +36,17 @@ items.sort(function(a, b) {
   return 0
 });
 
-let archived = items.filter(it => it.archived).map(it => it.name)
-let skip = []
-let lastName = ''
-let lastDescription = ''
-
+//  ${it.name}
+//  ${it.fork}
+//  ${it.full_name}
+//  ${it.archived}
+//  ${it.owner.login}
+//
 items.forEach(it => {
-  let description = ''
-  let hidden = false
-
-  // if description changes, update description
-  if(it.description && lastDescription != it.description) {
-    lastDescription = it.description
-    description = it.description
-  }
-
-  let forkOfArchived = (it.fork && archived.includes(it.name))
-  let tweakData = tweaks.items[it.full_name]
-  if(tweakData) {
-    hidden = tweakData.hidden
-    if(tweakData.description) {
-      description = tweakData.description
-    } else {
-      description += tweakData.append || ''
-    }
-  }
-  let entry = formatEntry(it, description)
-  if(!hidden) {
-    if(!it.archived && !forkOfArchived) {
-      // if name changes, title
-      if(lastName != it.name) {
-        lastName = it.name
-        printTitle(it.name)
-      }
-      console.log(entry)
-    } else {
-      skip.push(entry)
-    }
-  }
+  console.log(
+    `${it.days} days ago - ${it.html_url}
+    ${it.description}
+`
+  )
 })
-
-printTitle('archived or fork of archived')
-
-skip.forEach(skipped => console.log(skipped))
 
