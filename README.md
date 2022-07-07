@@ -32,6 +32,8 @@ You can still find a list of scraped GitHub projects sorted by last modification
 * [Remake session #2](https://vimeo.com/720749093)
 * [Tutorial 001](https://vimeo.com/510263307)
 * [Vimeo search](https://vimeo.com/search?q=openrndr)
+* [Limp Ninja 20/20 demo](https://www.youtube.com/watch?v=GvVfF-kQzM0) [source
+  code](https://github.com/edwinRNDR/deminity.git)
 
 # Core
 
