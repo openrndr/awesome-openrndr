@@ -22,6 +22,7 @@ You can still find a list of scraped GitHub projects sorted by last modification
 * [GitHub](https://github.com/openrndr) - Source code of the various OPENRNDR
   projects.
 * [Instagram](https://instagram.com/openrndr)
+* [Telegram](https://t.me/openrndr)
 
 # Read
 
@@ -37,6 +38,8 @@ You can still find a list of scraped GitHub projects sorted by last modification
 * Search of OPENRNDR related videos in [Vimeo](https://vimeo.com/search?q=openrndr)
 * [Limp Ninja 20/20 demo](https://www.youtube.com/watch?v=GvVfF-kQzM0) - An audiovisual code-based artwork - [source
   code](https://github.com/edwinRNDR/deminity.git)
+* [UST 7b](https://www.youtube.com/watch?v=EIeJyfxMbb8) - Music video featuring
+  sound reactive visuals.
 
 # Core
 
@@ -53,5 +56,6 @@ You can still find a list of scraped GitHub projects sorted by last modification
 
 # Code by users
 
+* [wordle game clone](https://github.com/espertus/wordle-openrndr)
 * [aBe's experiments](https://github.com/hamoid/openrndr-template)
 
