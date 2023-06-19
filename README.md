@@ -14,15 +14,15 @@ You can still find a list of scraped GitHub projects sorted by last modification
   
 # Social
 
-* [Main Twitter account](https://twitter.com/openrndr) and a [search for related tweets](https://twitter.com/search?q=openrndr)
-* [Reddit](https://reddit.com/r/openrndr)
 * [Discourse forum](https://openrndr.discourse.group) - The public forum with
   questions, answers and more.
 * [Slack](https://join.slack.com/t/openrndr/shared_invite/zt-avkbk0as-AZEsN7kb4UNIpfmYfbAemw) - Where the development discussions take place almost daily.
 * [GitHub](https://github.com/openrndr) - Source code of the various OPENRNDR
   projects.
-* [Instagram](https://instagram.com/openrndr)
+* [Main Twitter account](https://twitter.com/openrndr) and a [search for related tweets](https://twitter.com/search?q=openrndr)
 * [Telegram](https://t.me/openrndr)
+* [Reddit](https://reddit.com/r/openrndr)
+* [Instagram](https://instagram.com/openrndr)
 
 # Read
 
@@ -32,6 +32,8 @@ You can still find a list of scraped GitHub projects sorted by last modification
 
 # Videos
 
+* [In Conversations](https://tubedu.org/c/in_conversations_collections/videos) -
+  Over 20 videos live-coding with OPENRNDR.
 * [Remake session #1](https://vimeo.com/716830436) and [session #2](https://vimeo.com/720749093) - Recreating old generative
   artworks from the 70s as a way to learn the basics.
 * [Tutorial 001](https://vimeo.com/510263307) - Getting started with OPENRNDR.
@@ -56,6 +58,8 @@ You can still find a list of scraped GitHub projects sorted by last modification
 
 # Code by users
 
+* [ORSL](https://github.com/edwinRNDR/poc-shader-generation) - WIP Kotlin-based
+  shading language, may eventually become part of the core. More [here](https://openrndr.discourse.group/t/kotlin-based-shader-language/563).
 * [wordle game clone](https://github.com/espertus/wordle-openrndr)
 * [aBe's experiments](https://github.com/hamoid/openrndr-template)
 
