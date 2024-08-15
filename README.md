@@ -34,10 +34,9 @@ You can still find a list of scraped GitHub projects sorted by last modification
 
 * [In Conversations](https://tubedu.org/c/in_conversations_collections/videos) -
   Over 20 videos live-coding with OPENRNDR.
-* [Remake session #1](https://vimeo.com/716830436) and [session #2](https://vimeo.com/720749093) - Recreating old generative
+* [Remake session #1](https://tubedu.org/w/2Kvqna3NJVXvorCLFqm78W) and [session #2](https://tubedu.org/w/hhLDQ1D1nrAL5zseW1znDy) - Recreating old generative
   artworks from the 70s as a way to learn the basics.
-* [Tutorial 001](https://vimeo.com/510263307) - Getting started with OPENRNDR.
-* Search of OPENRNDR related videos in [Vimeo](https://vimeo.com/search?q=openrndr)
+* [Tutorial 001](https://tubedu.org/w/1emwo9y4BmUnj9v9Gi31r6) - Getting started with OPENRNDR.
 * [Limp Ninja 20/20 demo](https://www.youtube.com/watch?v=GvVfF-kQzM0) - An audiovisual code-based artwork - [source
   code](https://github.com/edwinRNDR/deminity.git)
 * [UST 7b](https://www.youtube.com/watch?v=EIeJyfxMbb8) - Music video featuring
@@ -58,8 +57,7 @@ You can still find a list of scraped GitHub projects sorted by last modification
 
 # Code by users
 
-* [ORSL](https://github.com/edwinRNDR/poc-shader-generation) - WIP Kotlin-based
-  shading language, may eventually become part of the core. More [here](https://openrndr.discourse.group/t/kotlin-based-shader-language/563).
+* [ORSL](https://github.com/openrndr/orsl) - Kotlin-based shading language. More [here](https://openrndr.discourse.group/t/kotlin-based-shader-language/563).
 * [wordle game clone](https://github.com/espertus/wordle-openrndr)
-* [aBe's experiments](https://github.com/hamoid/openrndr-template)
+* [aBe's experiments](https://codeberg.org/hamoid/?q=openrndr&tab=repositories&sort=recentupdate)
 
